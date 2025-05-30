@@ -9,7 +9,7 @@ A Twitter-based stock trading bot that monitors specific users for stock option 
 pip install -r requirements.txt
 ```
 
-2. Create a `.env` file with your credentials:
+2. Create a `.env` file with your credentials (use `.env.example` as a template):
 ```
 TWITTER_API_KEY=your_api_key
 TWITTER_API_SECRET=your_api_secret
@@ -33,4 +33,4 @@ python main.py
 - Price validation and trade execution
 
 ## Note
-This bot is for educational purposes only. Always test thoroughly with paper trading before using real money. 
+This bot is for educational purposes only. Always test thoroughly with paper trading before using real money.
