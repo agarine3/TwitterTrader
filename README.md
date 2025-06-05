@@ -1,4 +1,4 @@
-# MarketRavenBot
+# TwitterTrader
 
 A Twitter-based stock trading bot that monitors specific users for stock option signals and executes trades automatically.
 
