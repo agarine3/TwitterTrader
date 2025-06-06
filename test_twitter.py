@@ -40,5 +40,6 @@ def get_user_tweets(username, count=5):
         print(f"Error fetching tweets: {e}")
 
 if __name__ == "__main__":
-    # Test with @TheMarketRaven
-    get_user_tweets("TheMarketRaven", count=3) 
+    # Test with user
+    username = os.getenv('TWITTER_USER')
+    get_user_tweets(username, count=3) 

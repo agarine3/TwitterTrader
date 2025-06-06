@@ -22,7 +22,7 @@ TDA_TOKEN_PATH=path_to_token_file
 
 3. Run the bot:
 ```bash
-python main.py
+python3 main.py
 ```
 
 ## Features
